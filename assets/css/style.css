@@ -1,8 +1,20 @@
 
-header{}
+header{
+   position: relative;
+   background: #70A17A;
+   height: 80px;
+   left: -7px;
+   top: -21px;
+   width: 101%;
+}
+
 
 nav{
    float: right;
+    position: relative;
+    top: -43%;
+    right: 38%;
+    
 }
 
 ul{
@@ -14,23 +26,68 @@ li{
 padding: 5px ;}
 
 
-body{}
+body{
+  
+  
+}
+
+section{
+   width: 2080px;
+   background-image: url(../images/irongrip.png);
+   height: 960px;
+   left: 0;
+   top: 80px;
+   position: fixed;
+}
+
+div{
+   position: relative;
+    background: #4E8053;
+    left: 30%;
+    top: 2%;
+    padding: 1px 30px 30px 30px;
+    width: 550px;
+}
 
 
-div{}
-
+form{
+   display: inline-block;
+   
+}
 
 h1{
-   background-color: darkblue;
+   background-color: #6B8573;
+   color: #1A6B2A;
+    position: relative;
+    left: 27%;
+    top: 51%;
+    line-height: 39px;
+    width: 181px;
+    text-align: center;
 }
+
 
 
 h2{}
 
 
-p{}
+p{
+ 
+}
 
 
-footer{}
+footer{  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#4F9E5F;
+   color: white;
+   text-align: center;
+   height: 40px;
+}
 
 
+#message {
+   height: 100px;
+   width: 550px;
+}
