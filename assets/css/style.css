@@ -13,7 +13,7 @@ nav{
    float: right;
     position: relative;
     top: -43%;
-    right: 38%;
+    right: 32%;
     
 }
 
@@ -27,7 +27,7 @@ padding: 5px ;}
 
 
 body{
-  
+   color:#212923 ;
   
 }
 
@@ -56,8 +56,8 @@ form{
 }
 
 h1{
-   background-color: #6B8573;
-   color: #1A6B2A;
+   background-color: #5D7363;
+   color:#212923 ;
     position: relative;
     left: 27%;
     top: 51%;
@@ -66,14 +66,21 @@ h1{
     text-align: center;
 }
 
+img{
+   border: #212923 ;
+   border: 2px;
+}
+
+h2{  color: #212923;}
 
 
-h2{}
-
-
-p{
+p{    position: relative;
+   left: 5%;
+   margin: 20px 10px 20px 10px;
+   color: #212923;
  
 }
+
 
 
 footer{  position: fixed;
@@ -87,7 +94,43 @@ footer{  position: fixed;
 }
 
 
+input[type=button], input[type=submit], input[type=reset] {
+   background-color: #5D7363;
+   border: none;
+   color: #212923;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+
+ a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+   text-decoration: none;
+ }
+
+ /* visited link */
+ a:visited {
+   color:#d2dad4 ;
+  
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color: #0e1610;
+ }
+ 
+ /* selected link */
+ a:active {
+   color: #212923;
+ }
+
+
 #message {
    height: 100px;
    width: 550px;
 }
+
+
+ 
